@@ -422,7 +422,7 @@ export default function Home() {
                     maxLength={6}
                     inputMode="numeric"
                     pattern="[0-9]*"
-                    placeholder="000000"
+                    placeholder="XXXXXX"
                     value={verificationCode}
                     disabled={loading}
                     onChange={(e) => {
